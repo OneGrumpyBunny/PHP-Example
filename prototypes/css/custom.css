@@ -1,0 +1,118 @@
+
+header {
+  height:360px;
+  z-index:10;
+}
+.header-banner {
+  background-color: #333;
+  background-image: url('http://www.hydrantsoft.com/sites/dev/bvfco11/prototypes/media/engine_bg.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+a, a:hover, a:focus {
+    text-decoration:none;
+}
+
+nav>ul>li>a:hover, nav>ul>li>a:focus {
+    color: #ffffff;
+    text-shadow: 0px 0px 19px #ffffff;
+}
+
+header .logo {
+  background-color: transparent;
+}
+
+.membercard {
+  border: 1px solid #922433;
+  padding: 4px;
+  background: #ffffff;
+  margin: 10px auto -169px auto;
+  float:right;
+  margin: 20px;
+}
+
+.membercard a {
+    color:#922433;
+}
+
+.membercard a:hover, .membercard a:focus {
+    color:#bd6d6d;
+    /*text-shadow: 0px 0px 14px #bd6d6d;*/
+}
+
+.membercard h4{
+  border-bottom: 2px solid #922433;
+}
+
+.memberactionimg {
+  height:auto;
+  width:150px;
+}
+
+.membersm p {
+  /*float:right;*/
+  color:#ffffff;
+  margin:15px 10px 0 0;
+  text-shadow: 1px 1px 0 #000000;
+}
+
+.logo img {
+  height: 200px;
+  width: auto;
+  margin: 20px
+}
+
+.logosm img {
+  max-height: 54px;
+  float:left;
+  padding:3px;
+  margin-top: 5px;
+  margin-right:10px;
+  position: relative;
+}
+
+.logosm p {
+  color: #ffffff;
+  margin-top:10px;
+  float:left;
+  text-shadow: 1px 1px 0px #000000; 
+  font-size:80%;
+}
+
+header h1 {
+  position: absolute;
+  top: 72px; 
+  left: 240px;
+  color: #fff;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+  -webkit-transition: opacity 1.0s ease-in;
+  -moz-transition: opacity 1.0s ease-in;
+  -o-transition: opacity 1.0s ease-in;
+  opacity: .95;
+}
+
+nav {
+  width:100%;
+  height:60px;
+  background: #292f36;
+  postion: fixed;
+  z-index:10;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* resets */
+body { margin:0px; padding:0px; }
