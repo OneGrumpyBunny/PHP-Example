@@ -1,12 +1,12 @@
 <?php
 
-/*define('DB_NAME', 'tysus636_wp7');*/
+/*define('DB_NAME', '...');*/
 
 /** MySQL database username */
-/*define('DB_USER', 'tysus636_wp7');*/
+/*define('DB_USER', '...');*/
 
 /** MySQL database password */
-/*define('DB_PASSWORD', 'G#doKYA&C6zQO7&ex9.74.(5');*/
+/*define('DB_PASSWORD', '.../
 
 /** MySQL hostname */
 /*define('DB_HOST', 'localhost');*/
